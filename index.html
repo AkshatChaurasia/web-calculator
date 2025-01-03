@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        
+        <div class="calculator-body" role="region" aria-label="Calculator Interface">
+            <div class="calculator-input">
+                <input type="text" id="calc" aria-label="Calculator Input">
+                <!-- for keyboard -->
+                <!-- <div class="keys" role="group" aria-label="Calculator Keys">
+                    <div data-key="Key1" class="key" role="button" tabindex="0" aria-label="Number 1">
+                        <kbd>1</kbd>
+                    </div>
+                    <div data-key="Key2" class="key" role="button" tabindex="0" aria-label="Number 2">
+                        <kbd>2</kbd>
+                    </div>
+                    <div data-key="Key3" class="key" role="button" tabindex="0" aria-label="Number 3">
+                        <kbd>3</kbd>
+                    </div>
+                    <div data-key="Key4" class="key" role="button" tabindex="0" aria-label="Number 4">
+                        <kbd>4</kbd>
+                    </div>
+                    <div data-key="Key5" class="key" role="button" tabindex="0" aria-label="Number 5">
+                        <kbd>5</kbd>
+                    </div>
+                    <div data-key="Key6" class="key" role="button" tabindex="0" aria-label="Number 6">
+                        <kbd>6</kbd>
+                    </div>
+                    <div data-key="Key7" class="key" role="button" tabindex="0" aria-label="Number 7">
+                        <kbd>7</kbd>
+                    </div>
+                    <div data-key="Key8" class="key" role="button" tabindex="0" aria-label="Number 8">
+                        <kbd>8</kbd>
+                    </div>
+                    <div data-key="Key9" class="key" role="button" tabindex="0" aria-label="Number 9">
+                        <kbd>9</kbd>
+                    </div>
+                    <div data-key="Key0" class="key" role="button" tabindex="0" aria-label="Number 0">
+                        <kbd>0</kbd>
+                    </div>
+                    <div data-key="Key+" class="key" role="button" tabindex="0" aria-label="Addition Operation">
+                        <kbd>+</kbd>
+                    </div>
+                    <div data-key="Key-" class="key" role="button" tabindex="0" aria-label="Subtraction Operation">
+                        <kbd>-</kbd>
+                    </div>
+                    <div data-key="Key*" class="key" role="button" tabindex="0" aria-label="Multiplication Operation">
+                        <kbd>*</kbd>
+                    </div>
+                    <div data-key="Key/" class="key" role="button" tabindex="0" aria-label="Division Operation">
+                        <kbd>/</kbd>
+                    </div>
+                    <div data-key="Key**" class="key" role="button" tabindex="0" aria-label="Power Operation">
+                        <kbd>**</kbd>
+                    </div>
+                </div> -->
+                <div class="calculator-body">
+                    <button id="clear">AC</button>
+                    <button id="negate">+/-</button>
+                    <button id="percent" class="operator">%</button>
+                    <button id="/" class="operator">/</button>
+
+                    <button id="7" class="operand">7</button>
+                    <button id="8" class="operand">8</button>
+                    <button id="9" class="operand">9</button>
+                    <button id="*" class="operator">*</button>
+                    
+                    <button id="4" class="operand">4</button>
+                    <button id="5" class="operand">5</button>
+                    <button id="6" class="operand">6</button>
+                    <button id="-" class="operator">-</button>
+                    
+                    <button id="1" class="operand">1</button>
+                    <button id="2" class="operand">2</button>
+                    <button id="3" class="operand">3</button>
+                    <button id="+" class="operator">+</button>
+                    
+                    <button id="backspace">⌫</button>
+                    <button id="0" class="operand">0</button>        
+                    <button id="decimal">.</button>
+                    <button id="calculate" aria-label="Calculate Result">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
